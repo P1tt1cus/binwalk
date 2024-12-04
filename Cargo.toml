@@ -34,6 +34,7 @@ serde = { version = "1.0", features = ["derive"]}
 clap = { version = "4.5.16", features = ["derive"] }
 xxhash-rust = { version = "0.8.12", features = ["xxh32"] }
 hex = "0.4.3"
+pyo3 = { version = "0.23.2", features = ["extension-module"] }
 
 [dependencies.uuid]
 version = "1.10.0"
